@@ -8,6 +8,23 @@ This application connects to a PostgreSQL database to perform CRUD operations on
 - PostgreSQL server running locally
 - psycopg2 library (Python)
 
+## Database Setup with pgAdmin 4
+
+Before running the application, you need to set up the `students` table in your PostgreSQL database. Here's how to do it with pgAdmin 4:
+
+1. **Create the Database:**
+   - Open pgAdmin 4 and connect to your PostgreSQL server.
+   - Right-click on 'Databases', then select 'Create' and click 'Database'.
+   - Enter a name for your database, i used `school_db`, and click 'Save'.
+
+2. **Create the Table:**
+   - With your new database selected in pgAdmin, open the 'Query Tool' from the toolbar.
+   - Locate the SQL file in the `database/` directory of the cloned repository.
+   - Open the SQL file in the Query Tool or copy and paste the SQL script directly into the Query Tool window.
+   - Run the script to create the `students` table and insert the initial records.
+
+After these steps, the database and table are ready to be used by the Python application.
+
 ## Setup
 
 1. Install psycopg2 library using pip:
