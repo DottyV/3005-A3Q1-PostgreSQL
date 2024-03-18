@@ -42,4 +42,5 @@ Replace the placeholders in the function calls with actual values to perform the
 
 ## Video Demo
 
-- `Link:` https://youtu.be/Ljv4P5VrkOQ
+- `Link 1 (First vid 9 min):` https://youtu.be/Ljv4P5VrkOQ
+- `Link 2 (Second vid 5 min):` https://youtu.be/2-qtAiJrVKY
